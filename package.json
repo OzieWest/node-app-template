@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "nsp": "./node_modules/.bin/nsp check"
+  },
+  "engines": {
+    "node": "4.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "helmet": "^3.1.0",
+    "log4js": "^1.0.1",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "nsp": "^2.6.2"
+  }
+}
